@@ -9,5 +9,11 @@ namespace Moebler
     internal class TV : Moebel
     {
         public int Stoerrelse;
+        
+        public override void Udskriv()
+        {        
+            base.Udskriv();
+            Console.WriteLine($"- og har en skærm på {Stoerrelse} tommer");
+        }
     }
 }

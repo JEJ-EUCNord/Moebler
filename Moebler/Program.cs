@@ -12,9 +12,5 @@ mitTV.Fabrikant = "LG";
 mitTV.Stoerrelse = 66;
 
 // foretag testudskrivning
-Console.WriteLine(mitMoebel.Fabrikant);
-Console.WriteLine(mitMoebel.Pris);
-Console.WriteLine();
-Console.WriteLine(mitTV.Fabrikant);
-Console.WriteLine(mitTV.Stoerrelse);
-Console.WriteLine(mitTV.Pris);  
+mitMoebel.Udskriv();
+mitTV.Udskriv();
