@@ -9,7 +9,6 @@ namespace Moebler
     internal class Moebel
     {
         public double Pris;
-        public String Fabrikant;
+        public String Fabrikant = String.Empty;
     }
-
 }
