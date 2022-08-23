@@ -1,16 +1,13 @@
 ﻿using Moebler;
 
 // Lav et nyt møbel
-Moebel mitMoebel = new Moebel();
-mitMoebel.Pris = 120.50;
-mitMoebel.Fabrikant = "Træfabrikken";
+Moebel mitMoebel = new Moebel(120.50,"Træfabrikken");
+Moebel mitAndetMoebel = new Moebel(33, "Poul");
 
 // Lav et nyt TV
-TV mitTV= new TV();
-mitTV.Pris = 3399;
-mitTV.Fabrikant = "LG";
-mitTV.Stoerrelse = 66;
+TV mitTV= new TV(3399,"LG",66);
 
 // foretag testudskrivning
 mitMoebel.Udskriv();
+mitAndetMoebel.Udskriv();  
 mitTV.Udskriv();

@@ -11,6 +11,12 @@ namespace Moebler
         public double Pris;
         public String Fabrikant = String.Empty;
 
+        public Moebel(double pris, String fabrikant)
+        {
+            Pris = pris;
+            Fabrikant = fabrikant;
+        }
+
         public virtual void Udskriv()
         {
             Console.WriteLine($"Koster: {Pris} - Lavet af: {Fabrikant}");
